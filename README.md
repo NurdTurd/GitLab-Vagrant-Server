@@ -12,7 +12,7 @@
 4. Enter: `vagrant up` in your terminal to start the vagrant VM
 5. Once the box is up and running enter: `vagrant ssh`
 6. Now you should be in the ssh'd VM console.
-7. 1. (Optional: `yum update -y`)
+7. 1. (Optional: `sudo yum update -y`)
 8. Next, enter the commands below
 9. `sudo yum install openssh-server`
 10. `sudo yum install postfix`
