@@ -20,7 +20,7 @@
 12. `sudo service postfix start`
 13. `sudo chkconfig postfix on`
 14. `sudo lokkit -s http -s ssh`
-9. Next enter: `sudo rpm -i gitlab-7.9.2_omnibus-1.el6.x86_64.rpm`
-10. After that installed the package, enter: `sudo gitlab-ctl reconfigure`
+15. Next enter: `sudo rpm -i gitlab-7.9.2_omnibus-1.el6.x86_64.rpm`
+16. After that installed the package, enter: `sudo gitlab-ctl reconfigure`
 17. You should be good to go after that. Enjoy :)
 18. If you find any issues please report them and I will get to the ASAP.
