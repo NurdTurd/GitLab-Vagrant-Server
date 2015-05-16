@@ -17,7 +17,8 @@
 10. `sudo service postfix start`
 11. `sudo chkconfig postfix on`
 12. `sudo lokkit -s http -s ssh`
-13. Next enter: `curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash sudo yum install gitlab-ce`
+13. Next enter: `curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash`
+14. After that, run: `sudo yum install gitlab-ce`
 14. After that installed the package, enter: `sudo gitlab-ctl reconfigure`
 15. Head over to [http://localhost:2436](http://localhost:2436) and login with `root` as the username and `5iveL!fe`.
 16. You should be good to go after that. Enjoy :)
