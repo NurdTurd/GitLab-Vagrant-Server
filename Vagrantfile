@@ -11,20 +11,3 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.synced_folder "./", "/home/vagrant" # Directory where 'Vagrantfile' is will become a synced/linked directory to the vagrant home directory (DO NOT REMOVE THIS OR ELSE THE SERVER WILL NOTRUN CORRECTLY)
 end
-
-
-# Extra Info
-#
-# GitLab url is:
-#
-#   http://localhost:2436
-#
-# add ~/.ssh/config:
-#
-#   Host gitlab
-#       hostname 127.0.0.1
-#       port 2222
-#
-# and repository url is:
-#
-#   git@gitlab:repo.git
